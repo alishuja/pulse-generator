@@ -14,7 +14,7 @@ LIBS =
 MCU = atmega1280
 
 # user specific compiler options
-COPTS = -g -O2 -DF_CPU=14745600 -Wno-parentheses -fgnu89-inline
+COPTS = -g -O2 -DF_CPU=1843200 -Wno-parentheses -fgnu89-inline
 #COPTS = -g -O2 -DF_CPU=1000000 -Wno-parentheses -fgnu89-inline
 
 #  user specific linker options
