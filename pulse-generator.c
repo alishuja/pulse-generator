@@ -9,11 +9,11 @@ int main(void){
 
 	while(1){
 		PORTB |= (1 <<PB6);
-		_delay_us(337);
+		_delay_us(330);
 		PORTB &= (0 << PB6);
-		_delay_us(356);
+		_delay_us(350);
 		PORTB |= (1 << PB6);
-		_delay_us(278);
+		_delay_us(270);
 		PORTB &= (0 << PB6);
 		_delay_ms(850); 
 	}
